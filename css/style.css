@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #6d8adbc7;
+    color: white;
+    text-align: center;
+    height: 100px;
+
+}
+h1{
+    font-size: 24px;
+    padding-top: 35px;
+}
+main{
+    background-color: #eee;
+    min-height: calc(100vh - 100px);
+}
+.borders{
+    width: 960px;
+    margin: 0 auto;
+}
+article{
+    padding: 50px;
+    background-color: #dae4ff;
+    width: 400px;
+    float: left;
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.labels{
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+input{
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px 0;
+}
+input[type=submit]{
+    width: 77px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    text-transform: uppercase;
+    padding: 10px;
+    float: right;
+    background-color: #6d8adbc7;
+}
+
+aside {
+    padding: 50px;
+    margin-right: 25px;
+    float: right;
+    width: 326px;
+}
+aside ol {
+    list-style-type: decimal;
+    width: 100%;
+}
+aside ol li{
+    padding-bottom: 40px;
+}
+aside ol li button{
+    float: right;
+    color: red;
+    font-size: 20px;
+    background-color:rgba(0, 0, 0, 0.0);
+    border: none;
+}
+aside h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+aside p{
+    color:#0f3fc2c7;
+    font-family: 'Roboto', sans-serif;
+
+}
